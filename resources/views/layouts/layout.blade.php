@@ -13,6 +13,7 @@
 
     <main>
         @yield('content')
+        <h1>Test titolo</h1>
     </main>
 
     <script src=" {{ asset( './js/app.js' ) }}  "></script>
