@@ -15,20 +15,6 @@ class HousesTableSeeder extends Seeder
     {
         $house = new House();
 
-        $arrayMuldimensionale = [
-            [
-                "nome" => "nome casa"
-
-            ],
-            [],
-            []
-        ]
-
-        foreach( $arrayMuldimensionale as $item ){
-            $new_house = new House();
-            $new_house->nome = $item['nome']
-        }
-
         $house->address = 'pippo';
         $house->price = 100000;
         $house->type = 'appartaments';
